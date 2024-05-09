@@ -27,6 +27,7 @@ class TestCalc(unittest.TestCase):
         """
         result = calc.add2('abc', 'def')
         self.assertEqual(result, 'abcdef')
+        print('okokokokokokokokokokokokokokoko')
 
     def test_add_string_and_integer(self):
         """
@@ -35,6 +36,7 @@ class TestCalc(unittest.TestCase):
         """
         result = calc.add2('abc', 3)
         self.assertEqual(result, 'abc3')
+        print('okokokokokokokokokokokokokokoko')
 
     def test_add_string_and_number(self):
         """
@@ -43,6 +45,7 @@ class TestCalc(unittest.TestCase):
         """
         result = calc.add2('abc', '5.5')
         self.assertEqual(result, 'abc5.5')
+        print('okokokokokokokokokokokokokokoko')
 
 if __name__ == '__main__':
     unittest.main()
