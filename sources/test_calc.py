@@ -28,6 +28,7 @@ class TestCalc(unittest.TestCase):
         result = calc.add2('abc', 'def')
         self.assertEqual(result, 'abcdef')
         print('okokokokokokokokokokokokokokoko')
+        print('okokokokokokokokokokokokokokoko')
 
     def test_add_string_and_integer(self):
         """
